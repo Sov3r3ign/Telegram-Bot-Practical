@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from typing import Final
 from telegram import Update
 from telegram.ext import (
