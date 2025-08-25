@@ -9,8 +9,8 @@ from telegram.ext import (
 import spacy
 
 # === BOT SETTINGS ===
-TOKEN: Final = "8127544414:AAFtByG3YPcHyBH8u0CmpG2q6a3FoHSKKqc"
-BOT_USERNAME: Final = "@SiBonebot"
+TOKEN: Final = "8213262393:AAHrkAxL8LiyUFFN5xp4zurFImPaQRaz6-4"
+BOT_USERNAME: Final = "@sibondBot"
 
 # === NLP Model (load once globally) ===
 nlp = spacy.load("en_core_web_sm")
@@ -21,7 +21,7 @@ STATE0 = 0
 #Commands
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Greetings! I am Si-Bone, strengthened with SpaCy wisdom. "
+        "Greetings! I am Si-Bond, Let's get started😇!"
         "Type freely for quick replies, or begin a guided talk with /startconv."
     )
 
@@ -86,7 +86,7 @@ async def state0_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # === MAIN FUNCTION ===
 def main():
-    print("Starting merged bot...")
+    print("Starting bot...")
     app = Application.builder().token(TOKEN).build()
 
     # Simple commands
