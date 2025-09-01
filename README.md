@@ -1,5 +1,5 @@
 # Telegram Bot Practical
-# Si-Bone Chatbot with SpaCy Integration
+# Si-Bond Chatbot with SpaCy Integration
 
 ## 📌 Problem Statement
 Many chatbots are either too simple (keyword-based) or too complex (pure NLP without clear flow).  
